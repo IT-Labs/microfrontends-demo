@@ -1,0 +1,16 @@
+{
+  "extends": "ts-config-single-spa",
+  "compilerOptions": {
+       "jsx": "react",
+    "target": "es5",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
